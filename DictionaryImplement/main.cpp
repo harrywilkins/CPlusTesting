@@ -44,9 +44,11 @@ template<class K, class V> class Dictionary{
 
 int main()
 {
+    //Create new Dictionary object, with key type 'int' and value type 'string'
     Dictionary<int, string> dict;
-    
+    //Add a key value pair to the dictionary, where the key is 1, and the value is "a"
     dict.Add(1, "a");
+    //Access the value in the dictionary associated with the key 4
     cout << dict[4] << endl;
     
    return 0;
