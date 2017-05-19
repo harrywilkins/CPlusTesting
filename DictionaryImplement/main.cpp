@@ -48,8 +48,8 @@ int main()
     Dictionary<int, string> dict;
     //Add a key value pair to the dictionary, where the key is 1, and the value is "a"
     dict.Add(1, "a");
-    //Access the value in the dictionary associated with the key 4
-    cout << dict[4] << endl;
+    //Access the value in the dictionary associated with the key 1
+    cout << dict[1] << endl;
     
    return 0;
 }
